@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('rest_sentiment.urls')),
+    path('', include('amazon_sentiment.urls')),
 ]

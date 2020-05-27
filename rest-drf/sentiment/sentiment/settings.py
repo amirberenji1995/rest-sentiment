@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_sentiment',
     'rest_framework',
+    'amazon_sentiment',
 ]
 
 MIDDLEWARE = [
