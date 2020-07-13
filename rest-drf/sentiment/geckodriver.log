@@ -85,3 +85,142 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1591113657784	Marionette	INFO	Listening on port 34817
 1591113657816	Marionette	WARN	TLS certificate errors will be ignored for this session
 1591113664046	Marionette	INFO	Stopped listening on port 34817
+1593403339031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHLHeYZ"
+1593403344648	Marionette	INFO	Listening on port 39457
+1593403344723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593403351216	Marionette	INFO	Stopped listening on port 39457
+1594625600006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6qvBxV"
+1594625605058	Marionette	INFO	Listening on port 33675
+1594625605153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+1594625730968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZms29S"
+1594625737842	Marionette	INFO	Listening on port 42429
+1594625737972	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594625829387	Marionette	INFO	Stopped listening on port 33675
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1594625831284	Marionette	INFO	Stopped listening on port 42429
+1594625842184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet2pd9X"
+1594625845490	Marionette	INFO	Listening on port 43395
+1594625845514	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20651, MediaDecoderStateMachine #1] WARNING: Decoder=7ff0ca008c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /build/firefox-ywIVOy/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 376
+[Child 20651, MediaDecoderStateMachine #1] WARNING: Decoder=7ff0ca008c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /build/firefox-ywIVOy/firefox-78.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3470
+1594625869134	Marionette	INFO	Stopped listening on port 43395
+1594625888837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeIdljp"
+1594625892221	Marionette	INFO	Listening on port 36271
+1594625892259	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1594626206090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile69fCzD"
+1594626209211	Marionette	INFO	Listening on port 40993
+1594626209221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1594626255047	Marionette	INFO	Stopped listening on port 40993
+1594626289120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqtkwbs"
+1594626292495	Marionette	INFO	Listening on port 36605
+1594626292548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594626551723	Marionette	INFO	Stopped listening on port 36605
+1594626564080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTCN1QK"
+1594626567588	Marionette	INFO	Listening on port 43247
+1594626567634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+1594626588865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilew9Zrua"
+1594626592134	Marionette	INFO	Stopped listening on port 43247
+1594626592268	Marionette	INFO	Listening on port 45145
+1594626592306	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594627138602	Marionette	INFO	Stopped listening on port 45145
+1594628629587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZMbw05"
+1594628633983	Marionette	INFO	Listening on port 36025
+1594628634039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d9.flashtalking.com/d9core, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebGL 2 requires support for the following features: 
+  transform_feedback2
+1594628654051	Marionette	INFO	Stopped listening on port 36025
+1594628662669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2lGPco"
+1594628666119	Marionette	INFO	Listening on port 38467
+1594628666195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594628691931	Marionette	INFO	Stopped listening on port 38467
+1594628749285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA7kyMb"
+1594628752563	Marionette	INFO	Listening on port 43713
+1594628752625	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594628763937	Marionette	INFO	Stopped listening on port 43713
+1594628795314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletwQalr"
+1594628799197	Marionette	INFO	Listening on port 35923
+1594628799235	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594628899362	Marionette	INFO	Stopped listening on port 35923
+1594637595337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6N20K0"
+1594637599117	Marionette	INFO	Listening on port 35327
+1594637599181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594637608270	Marionette	INFO	Stopped listening on port 35327
+1594637698707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea1C8FD"
+1594637701781	Marionette	INFO	Listening on port 40103
+1594637701829	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594637715048	Marionette	INFO	Stopped listening on port 40103
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1594639761321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9gTYQD"
+1594639764288	Marionette	INFO	Listening on port 34897
+1594639764314	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1594639777896	Marionette	INFO	Stopped listening on port 34897
+1594639792415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7FVSjD"
+1594639795752	Marionette	INFO	Listening on port 42309
+1594639795849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594639802730	Marionette	INFO	Stopped listening on port 42309
+1594639839630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUvnjLZ"
+1594639842673	Marionette	INFO	Listening on port 42481
+1594639842749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594639856012	Marionette	INFO	Stopped listening on port 42481

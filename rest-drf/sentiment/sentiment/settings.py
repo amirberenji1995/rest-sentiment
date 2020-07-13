@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'amazon_sentiment',
     'instagram_sentiment',
     'imdb_sentiment',
+    'smart_sentiment',
 ]
 
 MIDDLEWARE = [

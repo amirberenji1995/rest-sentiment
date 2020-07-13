@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('amazon_sentiment.urls')),
     path('', include('instagram_sentiment.urls')),
     path('', include('imdb_sentiment.urls')),
+    path('', include('smart_sentiment.urls'))
 ]
