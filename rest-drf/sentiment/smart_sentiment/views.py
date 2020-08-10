@@ -3,7 +3,7 @@ from django.shortcuts import render
 from urllib.parse import urlparse
 from selenium import webdriver
 import time
-from smart_sentiment.smart_scraping import instagram_comments_scraper, imdb_reviews, amazon_comment_extracion, amzaon_reviews_sentiment
+from smart_sentiment.smart_scraping import instagram_comments_scraper, imdb_reviews, amazon_comment_extracion, amzaon_reviews_sentiment, youtube_comments_scraper
 
 from smart_sentiment.models import Page
 from smart_sentiment.serializer import PageSerializer
@@ -19,7 +19,11 @@ class SmartSentiment(APIView):
         if serializer.is_valid():
             link = serializer.data['link']
             parse_object = urlparse(link)
-            if parse_object.netloc == 'instagram.com' or parse_object.netloc == 'www.instagram.com':
+
+            if parse_object.netloc == 'youtube.com' or parse_object.netloc == 'www.youtube.com':
+                result = youtube_comments_scraper(link)
+                return Response(result, status=status.HTTP_200_OK)
+            elif parse_object.netloc == 'instagram.com' or parse_object.netloc == 'www.instagram.com':
                 result = instagram_comments_scraper(link)
                 return Response(result, status=status.HTTP_200_OK)
             elif parse_object.netloc == 'imdb.com' or parse_object.netloc == 'www.imdb.com':

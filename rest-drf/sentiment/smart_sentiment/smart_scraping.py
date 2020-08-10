@@ -107,3 +107,48 @@ def amzaon_reviews_sentiment(result):
     result["Reviews' Texts Sentiment"] = reviews_text_sentiment
     result["Reviews Titles' Sentiment"] = reviews_title_sentiment
     return result
+
+
+
+def youtube_comments_scraper(link):
+    author = []
+    date = []
+    comment_text = []
+    likes = []
+    text_sentiment = []
+
+    analyzer = SentimentIntensityAnalyzer()
+
+    driver = webdriver.Firefox()
+    driver.get(link)
+    time.sleep(1.5)
+    driver.execute_script("window.scrollTo(0, 1000)")
+    time.sleep(0.5)
+    driver.execute_script("window.scrollTo(0, 500)")
+    time.sleep(1.5)
+    driver.execute_script("window.scrollTo(0, 2500)")
+    time.sleep(3)
+    comments = driver.find_element_by_xpath('/html/body/ytd-app/div/ytd-page-manager/ytd-watch-flexy/div[4]/div[1]/div/ytd-comments/ytd-item-section-renderer')
+    soup = BeautifulSoup(comments.get_attribute('innerHTML'), 'html.parser')
+    driver.close()
+    for item in soup.find_all(id="author-text"):
+        author.append("".join(list(item.text)[18:][:-16]))
+
+    for jtem in soup.find_all(class_ = "published-time-text", hidden="true"):
+        date.append(jtem.find('a').text)
+
+    for ktem in soup.find_all(id='content-text'):
+        comment_text.append(ktem.text)
+        text_sentiment.append(analyzer.polarity_scores(ktem.text))
+
+    for ltem in soup.find_all(id="vote-count-left"):
+        likes.append("".join(list(ltem.text)[9:][:-7]))
+
+    result = {
+        'Author': author,
+        'Date of Submission': date,
+        'Comment': comment_text,
+        'Sentiment': text_sentiment,
+        'Likes': likes
+    }
+    return result
