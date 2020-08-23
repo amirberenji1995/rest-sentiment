@@ -253,3 +253,71 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1597045967556	Marionette	INFO	Listening on port 44759
 1597045967626	Marionette	WARN	TLS certificate errors will be ignored for this session
 1597045989566	Marionette	INFO	Stopped listening on port 44759
+1598190622627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA003Yc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
+1598190646241	Marionette	INFO	Listening on port 37559
+1598190646415	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598190661639	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1598190666672	Marionette	INFO	Stopped listening on port 37559
+1598190688223	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZmi9y3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598190691233	Marionette	INFO	Listening on port 44643
+1598190691248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598190718486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaIQOh5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598190721322	Marionette	INFO	Stopped listening on port 44643
+1598190722040	Marionette	INFO	Listening on port 37013
+1598190722088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598190774057	Marionette	INFO	Stopped listening on port 37013
+1598190794622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuKWGh5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598190797347	Marionette	INFO	Listening on port 45797
+1598190797451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598190811253	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1598190815063	Marionette	INFO	Stopped listening on port 45797
+1598192742818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejaAI4k"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598192745791	Marionette	INFO	Listening on port 40995
+1598192745838	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://html5-player.libsyn.com/embed/episode/id/15641573/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/ff0000/stats-code/wimia-homepage, line 986: TypeError: $(...).jcarousel is not a function
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/abg/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/simgad/4037062554426421558?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qmUD2bkgrte5nKvVzRJFsZtiICAQw​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012008102328000/amp4ads-v0.js, line 28: Error: Failed to load: https://tpc.googlesyndication.com/simgad/11296518663278796509?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qlfFaXmAXLHMpZToO_Edf7cGD4GfQ​​​
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1598192897482	Marionette	INFO	Stopped listening on port 40995

@@ -34,7 +34,7 @@ def imdb_reviews(link):
     new_link ="".join(list(link)[0 : list(link).index('?')]) + 'reviews'
 
     req = requests.get(new_link)
-    soup = BeautifulSoup(req.text)
+    soup = BeautifulSoup(req.text, 'html.parser')
     name = soup.find('h3').text.split('\n')
     users = [item.text for item in soup.find_all(class_ = "display-name-link")]
     reviews_date = [item.text for item in soup.find_all(class_ = "review-date")]
@@ -99,7 +99,6 @@ def amzaon_reviews_sentiment(result):
     reviews_text_sentiment = []
 
     reviews_title_sentiment = []
-
     for item in result["Reviews' Texts"]:
         reviews_text_sentiment.append(analyzer.polarity_scores(item))
     for jtem in result['Titles']:

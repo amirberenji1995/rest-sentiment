@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'instagram_sentiment',
     'imdb_sentiment',
     'smart_sentiment',
+    'rest_registration',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +125,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+REST_REGISTRATION = {
+    'REGISTER_VERIFICATION_ENABLED': False,
+    'REGISTER_EMAIL_VERIFICATION_ENABLED': False,
+    'RESET_PASSWORD_VERIFICATION_ENABLED': False,
+}
