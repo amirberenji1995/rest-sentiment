@@ -43,8 +43,9 @@ INSTALLED_APPS = [
     'instagram_sentiment',
     'imdb_sentiment',
     'smart_sentiment',
-    'rest_registration',
-]
+    'djoser',
+    'rest_framework.authtoken',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -127,8 +128,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-REST_REGISTRATION = {
-    'REGISTER_VERIFICATION_ENABLED': False,
-    'REGISTER_EMAIL_VERIFICATION_ENABLED': False,
-    'RESET_PASSWORD_VERIFICATION_ENABLED': False,
+#REST_FRAMEWORK - Djoser
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    ),
 }

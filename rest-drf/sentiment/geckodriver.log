@@ -321,3 +321,42 @@ JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, li
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1598192897482	Marionette	INFO	Stopped listening on port 40995
+1598279741287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUD5zqn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598279744273	Marionette	INFO	Listening on port 40993
+1598279744316	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598279755976	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+send@https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL.js?AUIClients/AmazonUIjQuery:173:19
+ajax@https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL.js?AUIClients/AmazonUIjQuery:167:155
+@https://images-na.ssl-images-amazon.com/images/G/01/prime/js/widget_withofferToken._CB435518429_.js?_=1598279753921:183:15
+n@https://www.amazon.com/RUNMUS-Surround-Canceling-Compatible-Controller/dp/B07GRM747Y/ref=cm_cr_arp_d_product_top?ie=UTF8:89:74
+W/</<@https://www.amazon.com/RUNMUS-Surround-Canceling-Compatible-Controller/dp/B07GRM747Y/ref=cm_cr_arp_d_product_top?ie=UTF8:90:391
+ca@https://www.amazon.com/RUNMUS-Surround-Canceling-Compatible-Controller/dp/B07GRM747Y/ref=cm_cr_arp_d_product_top?ie=UTF8:93:524
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL.js?AUIClients/AmazonUIjQuery, line 59: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1598280092480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGKCLsc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598280100321	Marionette	INFO	Stopped listening on port 40993
+1598280100356	Marionette	INFO	Listening on port 40023
+1598280100394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598280169372	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+send@https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL.js?AUIClients/AmazonUIjQuery:173:19
+ajax@https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL.js?AUIClients/AmazonUIjQuery:167:155
+@https://images-na.ssl-images-amazon.com/images/G/01/prime/js/widget_withofferToken._CB435518429_.js?_=1598280167911:183:15
+n@https://www.amazon.com/RUNMUS-Surround-Canceling-Compatible-Controller/dp/B07GRM747Y/ref=cm_cr_arp_d_product_top?ie=UTF8:89:74
+W/</<@https://www.amazon.com/RUNMUS-Surround-Canceling-Compatible-Controller/dp/B07GRM747Y/ref=cm_cr_arp_d_product_top?ie=UTF8:90:391
+ca@https://www.amazon.com/RUNMUS-Surround-Canceling-Compatible-Controller/dp/B07GRM747Y/ref=cm_cr_arp_d_product_top?ie=UTF8:93:524
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/61-6nKPKyWL.js?AUIClients/AmazonUIjQuery, line 59: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1598280231738	Marionette	INFO	Stopped listening on port 40023
+1598280290172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebIklzs"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598280292578	Marionette	INFO	Listening on port 46591
+1598280292595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598280303268	Marionette	INFO	Stopped listening on port 46591
