@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from rest_framework import permissions
+from rest_framework.throttling import UserRateThrottle
 
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 analyzer = SentimentIntensityAnalyzer()
@@ -14,6 +15,7 @@ class Sentiment(APIView):
     """
     Returns a JSON response, having float numbers as the indication of different sentiments.
     """
+    throttle_classes = [UserRateThrottle]
     def post(self, request, format=None):
         serializer = SentenceSerializer(data=request.data)
         if serializer.is_valid():
