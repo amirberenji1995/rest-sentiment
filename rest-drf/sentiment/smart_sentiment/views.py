@@ -12,14 +12,12 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import permissions
-from rest_framework.throttling import UserRateThrottle
 
 
 class SmartSentiment(APIView):
 
     permission_classes = (permissions.IsAuthenticated,)
-    throttle_classes = [UserRateThrottle]
-
+    throttle_scope = 'smart_sentiment'
     def post(self, request, format = None):
         serializer = PageSerializer(data=request.data)
         if serializer.is_valid():
